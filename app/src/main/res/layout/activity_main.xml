@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/eat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Eat" />
+
+    <Button
+        android:id="@+id/sleep"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sleep" />
+
+    <Button
+        android:id="@+id/nosleep"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="No sleep" />
+
+    <Button
+        android:id="@+id/carriage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Carriage" />
+
+    <Button
+        android:id="@+id/nocarriage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="No Carriage" />
+
+    <Button
+        android:id="@+id/fetch_last_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch last 10 events" />
+
+    <TextView
+        android:id="@+id/last_10_events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
